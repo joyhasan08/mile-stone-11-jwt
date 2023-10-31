@@ -5,11 +5,11 @@ import ban4 from './../../assets/images/banner/4.jpg'
 
 const BannerHome = () => {
     return (
-        <div>
-            <div className="carousel w-full h-[700px]">
+        <div className=''>
+            <div className="carousel w-full ">
                 <div id="slide1" className="carousel-item relative w-full">
 
-                    <img src={ban1} className="w-full " />
+                    <img src={ban1} className="w-full  " />
                     <div className='absolute h-full   w-full space-y-4 p-4 bg-gradient-to-r from-gray-600 to-transparent text-orange-50 '>
                         <h1 className='text-6xl font-semibold'>Affordable Price <br /> For Car Servicing</h1>
                         <p className='text-lg w-1/4'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>

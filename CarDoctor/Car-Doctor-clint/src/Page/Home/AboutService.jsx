@@ -11,7 +11,7 @@ const AboutService = () => {
             <div className="w-1/2 p-4 space-y-4 card-body shadow-md">
                 <p className="font-medium text-xl">About us</p>
                 <h2 className="font-semibold text-2xl" >We are qualified & of experience in this field</h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which  look even slightly believable. </p>
                 <button className="btn btn-outline">Get More</button>
             </div>
         </div>

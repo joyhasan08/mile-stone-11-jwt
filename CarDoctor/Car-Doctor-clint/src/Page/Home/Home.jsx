@@ -6,7 +6,7 @@ import AboutService from "./AboutService";
 const Home = () => {
     return (
         <>
-            <section>
+            <section className="max-w-6xl mx-auto  ">
                 <BannerHome></BannerHome>
             </section>
             <section className="max-w-5xl mx-auto">
