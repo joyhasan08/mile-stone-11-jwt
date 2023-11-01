@@ -9,8 +9,12 @@ function App() {
   return (
     <>
       <section>
-        <NavBar></NavBar>
-        <Outlet></Outlet>
+        <div className='fixed w-full z-50'>
+          <NavBar></NavBar>
+        </div>
+        <div className='pt-11'>
+          <Outlet></Outlet>
+        </div>
       </section>
     </>
   )
