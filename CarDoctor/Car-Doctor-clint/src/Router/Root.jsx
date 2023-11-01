@@ -3,6 +3,8 @@ import "./../index.css"
 import App from "../App";
 import Home from "../Page/Home/Home";
 import Appoinment from "../Page/Appointmment/Appoinment";
+import Login from "../Page/Login/Login";
+import Registration from "../Page/Login/Registration";
 
 
 const router = createBrowserRouter([
@@ -15,11 +17,20 @@ const router = createBrowserRouter([
                 element: <Home></Home>,
             },
             {
-                path: "app",
+                path: "/app",
                 element: <Appoinment></Appoinment>
+            },
+            {
+                path: "/login",
+                element: <Login />
+            },
+            {
+                path: "/reg",
+                element: <Registration />
             }
         ]
     },
+
 ]);
 
 export default router;
