@@ -13,6 +13,7 @@ const NavBar = () => {
                     <ul className="flex gap-4 items-center">
                         <Link to={"/"}>Home</Link>
                         <Link>About</Link>
+                        <Link to={"/services"} >Services</Link>
                         <Link to={"/app"} className="btn btn-sm btn-outline">Appointment</Link>
                         <Link to={"/login"} className="btn btn-sm btn-secondary">Login</Link>
 
